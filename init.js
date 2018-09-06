@@ -163,6 +163,8 @@ function spawnPoolWorkers(){
 
     var poolWorkers = {};
 
+    numForks = 1;
+
     var createPoolWorker = function(forkId){
         var worker = cluster.fork({
             workerType: 'pool',
