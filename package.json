@@ -1,11 +1,11 @@
 {
-    "name": "cryptonote-universal-pool",
+    "name": "cryptonote-universal-pool-safex",
     "version": "0.0.1",
     "license": "GPL-2.0",
     "author": "Matthew Little",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fancoder/cryptonote-universal-pool.git"
+        "url": "https://github.com/atanmarko/cryptonote-safex-pool.git"
     },
     "dependencies": {
         "async": "1",
@@ -13,7 +13,7 @@
         "bignum": "*",
         "cli-color": "*",
         "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
-        "cryptonote-util": "file:/home/amarko/radni/balkaneum/mining/node-cryptonote-util",
+        "cryptonote-util": "git+https://github.com/atanmarko/node-cryptonote-util-safex.git",
         "dateformat": "*",
         "redis": "*"
     },
