@@ -1,5 +1,7 @@
-cryptonote-xmr-pool
+cryptonote-xmr-pool updated for Safex blockchain
 ====================
+
+TODO: update documentation
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins such as Bytecoin, DuckNote, Monero, QuazarCoin, Boolberry, Dashcoin, etc..
 Comes with lightweight example front-end script which uses the pool's AJAX API.
